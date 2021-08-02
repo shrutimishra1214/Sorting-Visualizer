@@ -13,8 +13,8 @@ nav {
   color: white;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30% 60%;
-      grid-template-columns: 30% 60%;
+  -ms-grid-columns: 60% 30%;
+      grid-template-columns: 60% 30%;
   -webkit-column-gap: 10%;
           column-gap: 10%;
   padding: 0% 5%;
@@ -42,6 +42,10 @@ nav .array-inputs #a_generate:hover {
 }
 
 nav .header_right {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,21 +135,3 @@ section #Info_Cont2 {
 .hide {
   display: none;
 }
-
-/*
-@media (max-width: 480px)//Mobiles
-{
-    
-}
-
-@media (min-width: 481px) and (max-width: 1250px)//Tablets
-{
-
-}
-
-@media (min-width: 1251px)//Laptops and up
-{
-
-}
-*/
-/*# sourceMappingURL=style.css.map */
